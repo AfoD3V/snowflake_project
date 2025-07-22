@@ -1,0 +1,6 @@
+[connections.my_connection]
+account = "OYGGCQJ-FG70119"
+user = "ROMAN"
+role = "ACCOUNTADMIN"
+warehouse = "ROMAN_WH"
+database = "CHURN_PROJECT"

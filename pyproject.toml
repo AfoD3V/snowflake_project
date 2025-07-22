@@ -1,0 +1,13 @@
+[project]
+name = "snowflake-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.30.0",
+    "pandas>=2.3.1",
+    "python-dotenv>=1.1.1",
+    "snowflake-snowpark-python>=1.34.0",
+    "toml>=0.10.2",
+]
