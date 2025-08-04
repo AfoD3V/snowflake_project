@@ -1,0 +1,22 @@
+CREATE OR REPLACE TABLE RAW.customer_churn_raw (
+  RowNumber INT,
+  CustomerId STRING,
+  Surname STRING,
+  CreditScore INT,
+  Geography STRING,
+  Gender STRING,
+  Age INT,
+  Tenure INT,
+  Balance FLOAT,
+  NumOfProducts INT,
+  HasCrCard INT,
+  IsActiveMember INT,
+  EstimatedSalary FLOAT,
+  Exited INT,
+  Complain INT,
+  Satisfaction_Score INT,
+  Card_Type STRING,
+  Point_Earned INT,
+  FILE_NAME STRING,
+  LOAD_TS TIMESTAMP_LTZ DEFAULT CURRENT_TIMESTAMP()
+);
